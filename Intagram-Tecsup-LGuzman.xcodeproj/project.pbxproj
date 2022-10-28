@@ -22,6 +22,7 @@
 		2BDEAFEF28FA1226002678D1 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDEAFEE28FA1225002678D1 /* Settings.storyboard */; };
 		2BDEAFF128FA1455002678D1 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDEAFF028FA1455002678D1 /* SettingViewController.swift */; };
 		2BF4EDB0290C2E2500D80C67 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF4EDAF290C2E2500D80C67 /* Option.swift */; };
+		2BF4EDB2290C426800D80C67 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF4EDB1290C426800D80C67 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		2BDEAFEE28FA1225002678D1 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		2BDEAFF028FA1455002678D1 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		2BF4EDAF290C2E2500D80C67 /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
+		2BF4EDB1290C426800D80C67 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				2B06884E28F9FDFE00F65E39 /* ViewController.swift */,
 				2BDEAFF028FA1455002678D1 /* SettingViewController.swift */,
 				2B2DB3B829033F48003132AF /* LoginViewController.swift */,
+				2BF4EDB1290C426800D80C67 /* ProfileViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				2B06883428F9FC1700F65E39 /* AppDelegate.swift in Sources */,
 				2B06883628F9FC1700F65E39 /* SceneDelegate.swift in Sources */,
 				2B2DB3B929033F48003132AF /* LoginViewController.swift in Sources */,
+				2BF4EDB2290C426800D80C67 /* ProfileViewController.swift in Sources */,
 				2BF4EDB0290C2E2500D80C67 /* Option.swift in Sources */,
 				2BDEAFF128FA1455002678D1 /* SettingViewController.swift in Sources */,
 			);

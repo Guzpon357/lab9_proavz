@@ -3,14 +3,14 @@ import UIKit
 
 class SettingViewController: UIViewController{
     @IBOutlet weak var tableView: UITableView!
-    let options: [String] = [
-            "Archive",
-            "Your active",
-            "Nametag",
-            "Saved",
-            "Close friends",
-            "Discover people",
-            "Open facebook"
+    let options: [SettingsOption] = [
+        SettingsOption(name:"Archive", image: "archivebox"),
+        SettingsOption(name:"Your active", image: "clock"),
+        SettingsOption(name:"Nametag", image: "tag"),
+        SettingsOption(name:"Saved", image: "square.and.arrow.down"),
+        SettingsOption(name:"Close friends", image: "person"),
+        SettingsOption(name:"Discover people", image: "person.3"),
+        SettingsOption(name:"Open facebook", image: "shippingbox")
         ]
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,8 +33,8 @@ extension SettingViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for :indexPath)
         var contentListConfig = UIListContentConfiguration.cell()
-        contentListConfig.text = options[indexPath.row]
-        contentListConfig.image = UIImage(systemName: "person")
+        contentListConfig.text = options[indexPath.row].name
+        contentListConfig.image = UIImage(systemName: options[indexPath.row].image)?.withTintColor(.black,renderingMode:.alwaysOriginal)
         cell.contentConfiguration = contentListConfig
         return cell
     }

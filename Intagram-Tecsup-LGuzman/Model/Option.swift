@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct SettingsOption {
+    let name: String
+    let image: String
+}
