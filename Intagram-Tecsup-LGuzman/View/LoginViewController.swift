@@ -17,7 +17,9 @@ class LoginViewController: UIViewController {
         txtPassword.isSecureTextEntry = true
         // Do any additional setup after loading the view.
     }
-    
+    override func viewDidAppear(_ animated: Bool) {
+        checkSession()
+    }
     @IBAction func onTabLogin(_ sender: UIButton) {
         if txtEmail.text == "" || txtPassword.text == ""{
             let alert = UIAlertController(title: "Error" , message: "Completa los campos",preferredStyle: .alert)
@@ -32,7 +34,7 @@ class LoginViewController: UIViewController {
     func signIn(email: String, password: String) {
         Auth.auth().signIn(withEmail: email , password: password) { authResult, error in
             if error == nil {
-                
+                self.performSegue(withIdentifier: "seguelogin", sender: nil)
             }else {
                 self.signUp(email: email, password: password)
             }
@@ -45,8 +47,14 @@ class LoginViewController: UIViewController {
                 let alertButton = UIAlertAction(title: "ok" , style: .default)
                 alert.addAction(alertButton)
             }else{
-            
+                self.performSegue(withIdentifier: "seguelogin", sender: nil)
+            }
         }
     }
- }
+    func checkSession(){
+        if Auth.auth().currentUser != nil {
+            self.performSegue(withIdentifier: "seguelogin", sender: nil)
+        }
+        
+    }
 }

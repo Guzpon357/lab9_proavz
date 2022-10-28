@@ -180,6 +180,7 @@
                     <connections>
                         <outlet property="txtEmail" destination="d1u-bM-tXD" id="HvJ-rm-yjm"/>
                         <outlet property="txtPassword" destination="kRw-JE-PtE" id="sX2-Ig-eUt"/>
+                        <segue destination="Dt5-Q2-Hid" kind="presentation" identifier="seguelogin" modalPresentationStyle="fullScreen" id="NzD-3t-s2w"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qdk-Ha-hgV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -191,6 +192,7 @@
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Dt5-Q2-Hid" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="MC3-8y-A42"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="AmG-qS-JOF">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
