@@ -19,10 +19,12 @@
 		2B2DB3B529033016003132AF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 2B2DB3B429033016003132AF /* FirebaseFirestore */; };
 		2B2DB3B729033016003132AF /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 2B2DB3B629033016003132AF /* FirebaseStorage */; };
 		2B2DB3B929033F48003132AF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2DB3B829033F48003132AF /* LoginViewController.swift */; };
+		2B5F9ECA2915A6D6009FBAA5 /* UpdateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5F9EC92915A6D6009FBAA5 /* UpdateProfileViewController.swift */; };
 		2BDEAFEF28FA1226002678D1 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDEAFEE28FA1225002678D1 /* Settings.storyboard */; };
 		2BDEAFF128FA1455002678D1 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDEAFF028FA1455002678D1 /* SettingViewController.swift */; };
 		2BF4EDB0290C2E2500D80C67 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF4EDAF290C2E2500D80C67 /* Option.swift */; };
 		2BF4EDB2290C426800D80C67 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF4EDB1290C426800D80C67 /* ProfileViewController.swift */; };
+		2BF4EDB429159D7B00D80C67 /* UpdateProfileStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BF4EDB329159D7B00D80C67 /* UpdateProfileStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,10 +38,12 @@
 		2B06884E28F9FDFE00F65E39 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../.Trash/ViewController.swift; sourceTree = "<group>"; };
 		2B2DB3A629032773003132AF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2B2DB3B829033F48003132AF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2B5F9EC92915A6D6009FBAA5 /* UpdateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProfileViewController.swift; sourceTree = "<group>"; };
 		2BDEAFEE28FA1225002678D1 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		2BDEAFF028FA1455002678D1 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		2BF4EDAF290C2E2500D80C67 /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
 		2BF4EDB1290C426800D80C67 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2BF4EDB329159D7B00D80C67 /* UpdateProfileStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UpdateProfileStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 				2BDEAFF028FA1455002678D1 /* SettingViewController.swift */,
 				2B2DB3B829033F48003132AF /* LoginViewController.swift */,
 				2BF4EDB1290C426800D80C67 /* ProfileViewController.swift */,
+				2B5F9EC92915A6D6009FBAA5 /* UpdateProfileViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 			children = (
 				2B06883928F9FC1700F65E39 /* Main.storyboard */,
 				2BDEAFEE28FA1225002678D1 /* Settings.storyboard */,
+				2BF4EDB329159D7B00D80C67 /* UpdateProfileStoryboard.storyboard */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -212,6 +218,7 @@
 				2B06883D28F9FC1800F65E39 /* Assets.xcassets in Resources */,
 				2B2DB3A729032773003132AF /* GoogleService-Info.plist in Resources */,
 				2B06883B28F9FC1700F65E39 /* Main.storyboard in Resources */,
+				2BF4EDB429159D7B00D80C67 /* UpdateProfileStoryboard.storyboard in Resources */,
 				2BDEAFEF28FA1226002678D1 /* Settings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,6 +235,7 @@
 				2B06883628F9FC1700F65E39 /* SceneDelegate.swift in Sources */,
 				2B2DB3B929033F48003132AF /* LoginViewController.swift in Sources */,
 				2BF4EDB2290C426800D80C67 /* ProfileViewController.swift in Sources */,
+				2B5F9ECA2915A6D6009FBAA5 /* UpdateProfileViewController.swift in Sources */,
 				2BF4EDB0290C2E2500D80C67 /* Option.swift in Sources */,
 				2BDEAFF128FA1455002678D1 /* SettingViewController.swift in Sources */,
 			);

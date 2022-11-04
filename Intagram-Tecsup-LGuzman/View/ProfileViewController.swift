@@ -16,7 +16,7 @@ class ProfileViewController: UIViewController {
     @IBOutlet weak var btnContact: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        imageProfile.layer.cornerRadius = 30
+        imageProfile.layer.cornerRadius = 40
         btnEdit.layer.cornerRadius = 13
         btnContact.layer.cornerRadius = 13
         btnStatics.layer.cornerRadius = 13
