@@ -4,7 +4,6 @@
 //
 //  Created by MAC35 on 4/11/22.
 //
-
 import UIKit
 import FirebaseAuth
 import FirebaseStorage
@@ -54,7 +53,7 @@ class UpdateProfileViewController: UIViewController {
         ])
     }
     func imageFromURL(url: String ){
-        let imageURL = URL(String: url)
+        let imageURL = URL (String: url)
         let data = try? Data(contentsOf: imageURL!)
         if let imageData = data {
             Profileimage.image = UIImage(data: imageData)
